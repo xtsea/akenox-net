@@ -9,8 +9,8 @@ RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/out .
+COPY --from=build /app/out .  # Correct path
 
 EXPOSE 8501
 
-ENTRYPOINT ["dotnet", "out/akenoxnet.dll"]
+ENTRYPOINT ["dotnet", "akenoxnet.dll"]
