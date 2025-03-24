@@ -30,3 +30,9 @@
 /home/azril/akenoxnet/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/azril/akenoxnet/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/azril/akenoxnet/obj/Debug/net8.0/akenoxnet.csproj.CopyComplete
+/home/azril/akenoxnet/bin/Debug/net8.0/out/web.config
+/home/azril/akenoxnet/bin/Debug/net8.0/out/akenoxnet.deps.json
+/home/azril/akenoxnet/bin/Debug/net8.0/out/akenoxnet.runtimeconfig.json
+/home/azril/akenoxnet/bin/Debug/net8.0/out/appsettings.Development.json
+/home/azril/akenoxnet/bin/Debug/net8.0/out/appsettings.json
+/home/azril/akenoxnet/obj/Debug/net8.0/akenoxnet.sourcelink.json
