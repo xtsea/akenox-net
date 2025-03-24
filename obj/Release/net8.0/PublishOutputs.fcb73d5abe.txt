@@ -1,0 +1,11 @@
+/home/azril/akenoxnet/out/akenoxnet
+/home/azril/akenoxnet/out/appsettings.Development.json
+/home/azril/akenoxnet/out/appsettings.json
+/home/azril/akenoxnet/out/akenoxnet.dll
+/home/azril/akenoxnet/out/akenoxnet.deps.json
+/home/azril/akenoxnet/out/akenoxnet.runtimeconfig.json
+/home/azril/akenoxnet/out/akenoxnet.pdb
+/home/azril/akenoxnet/out/Microsoft.OpenApi.dll
+/home/azril/akenoxnet/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/azril/akenoxnet/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/azril/akenoxnet/out/Swashbuckle.AspNetCore.SwaggerUI.dll
