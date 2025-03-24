@@ -45,12 +45,12 @@ dotnet run
 
 ### Build and Run with Docker
 ```sh
-docker build -t akenox-api .
-docker run -d -p 8501:8501 akenox-api
+docker build -t akenox-net .
+docker run -d -p 8501:8501 akenox-net
 ```
 
 ## 🔗 Live Demo
-> **Try it now:** [AkenoX API](https://akenox-net.onrender.com/swagger/index.html)
+> **Try it now:** [AkenoX API](https://akenox-net.onrender.com/swagger/index.html) - Powered By [`@RendyProjects`](https://t.me/RendyProjects)
 
 ## 📜 License
 MIT License. Free to use and modify.
@@ -58,4 +58,3 @@ MIT License. Free to use and modify.
 ---
 
 💡 **Contributors Welcome!** Feel free to fork and contribute.
-
