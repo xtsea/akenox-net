@@ -1,6 +1,6 @@
-# AkenoX API (ASP.NET Core)
+# AkenoX NET API (ASP.NET Core)
 
-AkenoX API is a high-performance web API built with **ASP.NET Core**. It provides ultra-fast responses, making it ideal for high-load applications.
+AkenoX NET API is a high-performance web API built with **ASP.NET Core**. It provides ultra-fast responses, making it ideal for high-load applications.
 
 ## 🚀 Features
 
