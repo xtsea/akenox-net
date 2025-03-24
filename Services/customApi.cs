@@ -30,5 +30,25 @@ namespace customApi.Services
                 _ => throw new ArgumentException("Invalid key", nameof(key))
             };
         }
+        public static void FasterRun(WebApplication app)
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+            if (!app.Environment.IsDevelopment())
+            {
+                app.UseHttpsRedirection();
+            }
+            app.UseRouting();
+            app.MapControllers();
+            app.MapGet("/", context => {
+                context.Response.Redirect("/swagger");
+                return Task.CompletedTask;
+            });
+            app.MapGet("/support", context => {
+                context.Response.Redirect("https://t.me/RendyProjects");
+                return Task.CompletedTask;
+            });
+            app.Run();
+        }
     }
 }

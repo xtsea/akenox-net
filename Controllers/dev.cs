@@ -32,8 +32,13 @@ public class DevController : ControllerBase
         string endpoint = AkenoXDev.GetEndpoint("list-endpoint");
         using var httpClient = new HttpClient();
         string response = await httpClient.GetStringAsync(endpoint);
-        var json = JsonSerializer.Deserialize<object>(response);
-        return Ok(json);
+        var json = JsonSerializer.Deserialize<Dictionary<string, object>>(response);
+        if (json != null)
+        {
+            json["base_url"] = "https://faster.maiysacollection.com/v2/fast/";
+            return Ok(json);
+        }
+        return StatusCode(500, "Error");
     }
 
     [HttpGet("instagram-dl")]

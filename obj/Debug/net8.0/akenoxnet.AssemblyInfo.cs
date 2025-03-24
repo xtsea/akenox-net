@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("akenoxnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0898e85856443a38dcbacdf07504d57579ad93b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d626fa71390d6a35ec1d4d681d4112dadef8a917")]
 [assembly: System.Reflection.AssemblyProductAttribute("akenoxnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("akenoxnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
